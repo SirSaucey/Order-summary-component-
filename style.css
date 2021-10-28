@@ -1,0 +1,95 @@
+body {
+    background: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    margin: auto 0;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:before,
+:after {
+    content: '';
+}
+.container {
+    width: 400px;
+    height: 600px;
+    background: #fff; 
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+h1 {
+    font-weight: 900 ;
+
+}
+.hero {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    width: 320px;
+    height: 100px;
+    border-radius: 10px;
+    background: hsl(225, 100%, 98%);
+    position: relative;
+    left: 10%;
+    text-align: left;
+}
+.text{
+    margin-left: 50px;
+    font-weight: 900;
+}
+.text1 {
+    color: hsl(224, 23%, 55%);
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.icon {
+    position: relative;
+    top: 25%;
+    left: 10%;
+}
+.cbtn {
+    position: relative;
+    top: -50%;
+    left: 75%;
+    border: none;
+    background: hsl(225, 100%, 98%);
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 800;
+}
+.payment {
+    width: 320px;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    box-shadow:0px 10px 15px -8px hsl(245, 75%, 52%);
+}
+.cancel {
+    border: none;
+    background: #fff;
+    position: relative;
+    margin-top: 25px;
+}
+.text2 { color: hsl(224, 23%, 55%); font-weight: 700;}
+
+button:hover {
+    cursor: pointer;
+}
